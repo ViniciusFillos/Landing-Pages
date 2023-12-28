@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Roboto:wght@700&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #1F1517;
+    color: #FFFFFF;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 24px 160px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #FFF2E780;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background: #181012;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+
+    padding: 0px 32px;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.featured {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.brown {
+    color: #A45A49;
+}
+
+.yellow {
+    color: #E7A80E;
+}
+
+h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero_sibtitle {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero_images_container {
+    max-width: 50%;
+    column-count: 4;
+    column-gap: 16px;
+}
+
+.hero_images_container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.button_container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(0 -50%);
+}
+
+button {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #A45A49;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 48px 36px;
+    margin: auto;
+}
+
+.recipes_header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recipes_title {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.recipes_subtitle {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.recipes_card_container {
+    padding: 0px 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.recipes_card {
+    background: #241A1C;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex-basis: 464px;
+    margin-top: 32px;
+}
+
+.recipes_card_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.recipes_card_header_details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recipes_title {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recipes_review {
+    color: #756A67;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.recipes_description {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.recipes_author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.recipes_author > img {
+    border-radius: 999px;
+    width: 24px;
+}
+
+.recipes_author_name {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #23181A;
+}
+
+.footer_copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer_author {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
